@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+       body{
+        min-height: 100vh;
+        background-color:aliceblue;
+        display: flex;
+        font-family: sans-serif;
+
+}
+       .boxes{
+        margin: auto;
+        width: 700px;
+        max-width: 90%;
+       }
+
+       .boxes form{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+       }
+
+       .boxes form h1{
+        text-align: center;
+        margin-bottom: 30px;
+        
+       }
+
+       .boxes form .Group{
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        border-radius: 5px;
+        border: 2px solid silver;
+        margin: 10px 0  18px 0;
+       }
